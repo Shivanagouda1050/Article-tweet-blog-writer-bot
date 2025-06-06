@@ -3,7 +3,7 @@ from main import model_with_tools  # Import the instance already bound with tool
 
 st.title("ContentCraft Bot")
 st.markdown("""
-This bot can write **Articles**, **Tweets**, and **Blogs** for you based on your input query.  
+"This bot can create Articles, Tweets, and comic-style news tailored to your input query."
 Just type your request and click **Invoke** to see it in action.
 """)
 user_input = st.text_input("Enter your query:", "")
